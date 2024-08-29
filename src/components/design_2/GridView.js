@@ -23,7 +23,7 @@ const GridView = ({ onSelectTile }) => {
   return (
     <div className="p-6">
       <h2 className="text-3xl font-bold text-center mb-6">
-        Student Grid View - V1
+        Student Grid View - V2
       </h2>
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
